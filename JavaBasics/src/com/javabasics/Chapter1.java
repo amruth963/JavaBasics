@@ -23,4 +23,6 @@ public class Chapter1 {
 	public static void main1(String[] abc) {
 		System.out.println("Method and variable name can be changed to any name");
 	}
+	
+	
 }

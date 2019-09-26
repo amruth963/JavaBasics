@@ -6,7 +6,8 @@ public static void main (String []args){
 	//Variables in Java
 	int age = 25; //to indicate a small number range
 	long price = 241375321;// to indicate large number
-	double cost = 25.1;// to ndicate a decimal number
+	double cost = 25.1;// to indicate a decimal number
+	float money = (float) 25.14345544; //Even this is used to indicate decimal number
 	
 	System.out.println(age);
 	System.out.println(price);
@@ -31,6 +32,7 @@ public static void main (String []args){
 	
 	int x =1;
 	x = x+1;
+	x += 1; //Even this can be used in java to increment both are same but this is in standard way
 	System.out.println(x);
 	x++;
 	System.out.println(x);
